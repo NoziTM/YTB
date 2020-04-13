@@ -6,13 +6,13 @@ const client = new Discord.Client(); //surtout pas t
 
 const ClientID = "631001858118516736"
 
-const token = (process.env.TOKEN1)
+const token = process.env.token
 
 const prefix = "$" // Choix de votre préfix entre les ""   
 
 
 
-client.login (TOKEN1);
+client.login (ntmsalope);
 
 client.on('message', function (message) {
 

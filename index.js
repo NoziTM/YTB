@@ -12,7 +12,7 @@ const prefix = "$" // Choix de votre préfix entre les ""
 
 
 
-client.login (process.env.TOKEN1);
+client.login (TOKEN1);
 
 client.on('message', function (message) {
 
